@@ -59,11 +59,11 @@
   justify-content: center;
 
   background-color: #0f485740;
-  text-align: center;
 }
 
 .donateContainer h2 {
   max-width: 900px;
+  align-text: right;
   min-width: 200px;
   color: #0f4857;
 }

@@ -44,26 +44,27 @@ export default function Home() {
             </Col>
           </div>
           <p style={{ height: 50 }} />
-          <h2> Our Offers </h2>
+          <h2 style={{ fontSize: 40, fontWeight: 25 }}> Our Offers </h2>
           <div className={styles.grid}>
             <a href="/events" className={styles.card}>
               <h2>Events &rarr;</h2>
               <p>
-                Learn how AI is affecting our world, and what you can do to make
-                a difference
+                Learn how AI is affecting our world, and get
+                <b> inspired </b> to make a difference
               </p>
             </a>
             <a href="/classes" className={styles.card}>
               <h2>Classes &rarr;</h2>
               <p>
-                Weekly lessons covering the fundamentals of AI and ML for
-                students
+                Weekly lessons <b> educating </b> students covering the
+                fundamentals of AI
               </p>
             </a>
             <a className={styles.card}>
               <h2>Contests &rarr;</h2>
               <p>
-                Create, innovate, and inspire to make the world a better place{" "}
+                Compete, create, and<b> innovate </b> to make the world a better
+                place
               </p>
               <h3> Coming soon..</h3>
             </a>
