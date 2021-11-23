@@ -191,7 +191,9 @@
 }
 
 .card {
-  margin: 1rem;
+  margin: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
