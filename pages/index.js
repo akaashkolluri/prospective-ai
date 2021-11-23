@@ -19,7 +19,6 @@ export default function Home() {
           </div>
           <div className={styles.missionContainer}>
             <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
-              {" "}
               Prospective AI is an organization dedicated to making AI
               accessible and available to students of all ages. We rely on
               donors to provide us with the resources necessary to keep our
@@ -38,7 +37,6 @@ export default function Home() {
                 a difference
               </p>
             </a>
-
             <a href="/classes" className={styles.card}>
               <h2>Classes &rarr;</h2>
               <p>
@@ -46,7 +44,6 @@ export default function Home() {
                 students
               </p>
             </a>
-
             <a className={styles.card}>
               <h2>Contests &rarr;</h2>
               <p>
