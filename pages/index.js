@@ -73,11 +73,11 @@ export default function Home() {
           <div className={styles.donateContainer}>
             <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
               Prospective AI is an organization dedicated to making AI
-              accessible and available to students of all ages. We rely on
-              donors to provide us with the resources necessary to keep our
-              programs and workshops running year-round Your donation is crucial
-              in allowing us to provide valuable resources and quality education
-              to our students.
+              accessible students of all backgrounds. We rely on donors to
+              provide us with the resources necessary to keep our programs and
+              workshops running year-round and cost free. Your donation is
+              crucial in allowing us to provide valuable resources and quality
+              education to our students.
             </h2>
 
             <a> Donate</a>
