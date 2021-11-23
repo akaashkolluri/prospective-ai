@@ -26,7 +26,7 @@ class Footer extends Component {
             </a>
             <p />
             <Row>
-              <a>
+              <a href="https://www.instagram.com/prospective.ai/">
                 <InstagramOutlined style={{ fontSize: 36 }} />
               </a>
               <p style={{ flex: 1 }} />
