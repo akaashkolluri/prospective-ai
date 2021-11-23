@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Layout, Col, Card, Text, Row, Spacer } from "antd";
+import { Layout, Col, Card, Text, Row, Spacer, Anchor, Link } from "antd";
 import styles from "../styles/Home.module.css";
 import {
   InstagramOutlined,
@@ -47,7 +47,13 @@ class Footer extends Component {
               flex: 12,
             }}
           />
-          <Col> Hi there</Col>
+          <Col>
+            {/* <div>
+              <Link href="#" title="Events" />
+              <Link href="#" title="Contests" />
+              <Link href="#" title="Classes" />
+            </div> */}
+          </Col>
           <p
             style={{
               backgroundColor: "black",
@@ -55,7 +61,7 @@ class Footer extends Component {
               flex: 2,
             }}
           />
-          <Col> Hi there</Col>
+          <Col></Col>
           <p
             style={{
               backgroundColor: "black",
@@ -71,8 +77,7 @@ class Footer extends Component {
               Made with ❤️ in Houston, TX
             </a>
             <a href="https://github.com/akaashkolluri/prospective-ai">
-              Prospective AI is fiscally sponsored by a 501(c)(3) so your
-              donation is tax deductible.{" "}
+              Prospective AI is fiscally sponsored by a 501(c)(3){" "}
             </a>
           </Col>
         </Layout.Footer>
