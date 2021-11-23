@@ -76,7 +76,7 @@ class Footer extends Component {
             </a>
             <p />
             <a
-              href="mailto:contact@prospectiveai.org ?subject=Sponorship"
+              href="mailto:contact@prospectiveai.org ?subject=Sponsorship"
               style={{ fontSize: 18 }}
             >
               Sponsor
