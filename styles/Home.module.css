@@ -6,6 +6,7 @@
 .titleContainer {
   display: flex;
   flex-direction: column;
+  /* min-height: calc(100vh - 150px); */
   min-height: 100vh;
   justify-content: center;
   align-items: center;

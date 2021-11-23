@@ -10,7 +10,7 @@ import {
 class Footer extends Component {
   render() {
     return (
-      <div style={{ backgroundColor: "black", margin: 10 }}>
+      <div style={{ backgroundColor: "black" }}>
         <Row className={styles.footertop}>
           <p
             style={{
