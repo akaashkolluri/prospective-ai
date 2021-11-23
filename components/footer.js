@@ -48,15 +48,15 @@ class Footer extends Component {
             }}
           />
           <Col>
-            <a href="mailto:contact@prospectiveai.org" style={{ fontSize: 18 }}>
+            <a href="" style={{ fontSize: 18 }}>
               Events
             </a>
             <p />
-            <a href="mailto:contact@prospectiveai.org" style={{ fontSize: 18 }}>
+            <a href="" style={{ fontSize: 18 }}>
               Classes
             </a>
             <p />
-            <a href="mailto:contact@prospectiveai.org" style={{ fontSize: 18 }}>
+            <a href="" style={{ fontSize: 18 }}>
               Contests
             </a>
           </Col>
@@ -68,15 +68,21 @@ class Footer extends Component {
             }}
           />
           <Col>
-            <a href="mailto:contact@prospectiveai.org" style={{ fontSize: 18 }}>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSchez52ZvV2P9w7gu86bebJyNbQmxvQqhDSHAB58z4EYgGFBg/viewform?usp=sf_link"
+              style={{ fontSize: 18 }}
+            >
               Join
             </a>
             <p />
-            <a href="mailto:contact@prospectiveai.org" style={{ fontSize: 18 }}>
+            <a
+              href="mailto:contact@prospectiveai.org ?subject=Sponorship"
+              style={{ fontSize: 18 }}
+            >
               Sponsor
             </a>
             <p />
-            <a href="mailto:contact@prospectiveai.org" style={{ fontSize: 18 }}>
+            <a href="" style={{ fontSize: 18 }}>
               Donate
             </a>
           </Col>
