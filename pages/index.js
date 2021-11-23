@@ -6,7 +6,7 @@ import Header from "../components/header";
 export default function Home() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <div className={styles.container}>
         <main className={styles.main}>
           <h1 className={styles.title}>Prospective AI</h1>
