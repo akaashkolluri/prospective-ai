@@ -10,7 +10,7 @@ import {
 class Footer extends Component {
   render() {
     return (
-      <div>
+      <div style={{ backgroundColor: "black", margin: 10 }}>
         <Row className={styles.footertop}>
           <p
             style={{
@@ -88,7 +88,15 @@ class Footer extends Component {
             }}
           />
         </Row>
-
+        <Card
+          style={{
+            color: "white",
+            flex: 1,
+            height: 1,
+            marginRight: 30,
+            marginLeft: 30,
+          }}
+        />
         <Layout.Footer className={styles.footer}>
           <Col>
             <a href="https://github.com/akaashkolluri/prospective-ai">
