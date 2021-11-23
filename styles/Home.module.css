@@ -15,7 +15,7 @@
 .missionContainer {
   padding: 0 3rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   min-height: 50vh;
   justify-content: center;
   align-items: center;

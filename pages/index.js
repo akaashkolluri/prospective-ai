@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Footer from "../components/footer";
 import Header from "../components/header";
-import { Card } from "antd";
+import { Card, Col, Row } from "antd";
 
 export default function Home() {
   return (
@@ -18,14 +18,30 @@ export default function Home() {
             <p style={{ flex: 2 }} />
           </div>
           <div className={styles.missionContainer}>
-            <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
-              Prospective AI is an organization dedicated to making AI
-              accessible and available to students of all ages. We rely on
-              donors to provide us with the resources necessary to keep our
-              programs and workshops running year-round Your donation is crucial
-              in allowing us to provide valuable resources and quality education
-              to our students.
+            <h2 style={{ margin: 10, backgroundColor: "#00000000", flex: 5 }}>
+              Prospective AI is an organization dedicated to exposing today’s
+              youth to the increasingly more important field of Artificial
+              Intelligence. The increasing applicability of AI in a variety of
+              STEM fields has made understanding AI a critical skill for those
+              looking to enter the workforce. Our goal is to educate students of
+              all ages and skill levels on the implementation and social impacts
+              of AI through free programs, workshops and competitions.
             </h2>
+            <p style={{ flex: 1 }} />
+            <Col style={{ flex: 3 }}>
+              <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
+                -Some Stat
+              </h2>
+              <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
+                -Some Stat
+              </h2>
+              <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
+                -Some Stat
+              </h2>
+              <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
+                -Some Stat
+              </h2>
+            </Col>
           </div>
           <p style={{ height: 50 }} />
           <h2> Our Offers </h2>
