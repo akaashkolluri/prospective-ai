@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Footer from "../components/footer";
 import Header from "../components/header";
+import { Card } from "antd";
 
 export default function Home() {
   return (
@@ -16,17 +17,21 @@ export default function Home() {
             <h2 className={styles.tagline}> Educate, Innovate, Inspire</h2>
             <p style={{ flex: 2 }} />
           </div>
-          <h2>
-            {" "}
-            Prospective AI is an organization dedicated to making AI accessible
-            and available to students of all ages. We rely on donors to provide
-            us with the resources necessary to keep our programs and workshops
-            running year-round Your donation is crucial in allowing us to
-            provide valuable resources and quality education to our students.
-          </h2>
+          <div className={styles.missionContainer}>
+            <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
+              {" "}
+              Prospective AI is an organization dedicated to making AI
+              accessible and available to students of all ages. We rely on
+              donors to provide us with the resources necessary to keep our
+              programs and workshops running year-round Your donation is crucial
+              in allowing us to provide valuable resources and quality education
+              to our students.
+            </h2>
+          </div>
+          <p style={{ height: 50 }} />
           <h2> Our Offers </h2>
           <div className={styles.grid}>
-            <a href="https://nextjs.org/docs" className={styles.card}>
+            <a href="/events" className={styles.card}>
               <h2>Events &rarr;</h2>
               <p>
                 Learn how AI is affecting our world, and what you can do to make
@@ -49,6 +54,17 @@ export default function Home() {
               </p>
               <h3> Coming soon..</h3>
             </a>
+          </div>
+          <p style={{ height: 30 }} />
+          <div className={styles.quoteContainer}>
+            <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
+              Prospective AI is an organization dedicated to making AI
+              accessible and available to students of all ages. We rely on
+              donors to provide us with the resources necessary to keep our
+              programs and workshops running year-round Your donation is crucial
+              in allowing us to provide valuable resources and quality education
+              to our students.
+            </h2>
           </div>
         </main>
       </div>

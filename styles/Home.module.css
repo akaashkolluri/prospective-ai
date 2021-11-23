@@ -1,5 +1,4 @@
 .container {
-  padding: 0 2rem;
   background-color: white;
   display: flex;
 }
@@ -12,9 +11,29 @@
   align-items: center;
 }
 
+.missionContainer {
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #5c114916;
+}
+
+.quoteContainer {
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f485725;
+}
+
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding-top: 4rem;
   flex: 1;
   background-color: white;
   display: flex;
@@ -163,15 +182,6 @@
   font-size: 1.5rem;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
 .grid {
   display: flex;
   align-items: center;
@@ -199,6 +209,7 @@
 .card:active {
   color: #48c6cd;
   border-color: #48c6cd;
+  border: 0px solid #eaeaea;
 }
 
 .card h3 {
