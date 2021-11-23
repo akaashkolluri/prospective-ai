@@ -25,6 +25,10 @@
   background-color: #5c114916;
 }
 
+.missionContainer h2 {
+  color: #5c1149;
+}
+
 .quoteContainer {
   padding: 0 3rem;
   display: flex;
@@ -64,7 +68,6 @@
 
 .donateContainer h2 {
   max-width: 900px;
-  align-text: right;
   min-width: 200px;
   color: #0f4857;
 }
