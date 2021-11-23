@@ -7,6 +7,8 @@
   display: flex;
   flex-direction: column;
   /* min-height: calc(100vh - 150px); */
+  background-image: url("../public/logo.png");
+  min-width: 100vw;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
@@ -34,82 +36,13 @@
 
 .main {
   min-height: 100vh;
-  padding-top: 4rem;
+
   flex: 1;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 0;
-  padding: 2rem 0;
-
-  justify-content: center;
-  align-items: center;
-  background-color: #00000000;
-}
-
-.footer p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  color: white;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  flex: 1;
-}
-.footer a:visited {
-  color: white;
-}
-.footer a:link {
-  color: white;
-}
-
-.footer a:hover {
-  color: #48c6cd;
-}
-
-.footertop {
-  display: flex;
-  flex: 0;
-  padding: 2rem 0;
-  justify-content: center;
-  align-items: center;
-  background-color: #00000000;
-  color: white;
-}
-
-.footertop h1 {
-  color: white;
-}
-
-.footertop a {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  font-size: 18;
-  color: white;
-}
-
-.footertop a:visited {
-  color: white;
-}
-.footertop a:link {
-  color: white;
-}
-
-.footertop a:hover {
-  color: #48c6cd;
 }
 
 .title a {

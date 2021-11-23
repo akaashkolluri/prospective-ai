@@ -7,7 +7,7 @@ class Header extends Component {
   render() {
     return (
       <Affix>
-        <Menu className={styles.header}>
+        <div className={styles.header}>
           <p style={{ flex: 2 }} />
           <a href="/">
             <img
@@ -23,7 +23,7 @@ class Header extends Component {
           <p style={{ flex: 4 }} />
           <a className={styles.donateCard}>Support</a>
           <p style={{ flex: 1 }} />
-        </Menu>
+        </div>
       </Affix>
     );
   }
