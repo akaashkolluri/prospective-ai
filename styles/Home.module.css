@@ -1,6 +1,15 @@
 .container {
   padding: 0 2rem;
   background-color: white;
+  display: flex;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
@@ -109,6 +118,38 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  animation: fadeIn;
+  animation-duration: 3s;
+  color: black;
+}
+
+.tagline {
+  margin: 0;
+
+  animation: fadeInDelay;
+  animation-duration: 6s;
+  color: black;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDelay {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .title,
@@ -170,15 +211,6 @@
   animation-duration: 1s;
   animation-name: fadeIn;
   color: rgb(255, 138, 138);
-}
-
-@keyframes fadeIn {
-  from {
-    color: #00000000;
-  }
-  to {
-    color: red;
-  }
 }
 
 .card h2 {
