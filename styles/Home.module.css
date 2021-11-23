@@ -66,8 +66,8 @@
 
 .footertop a {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   font-size: 18;
   color: white;
 }
