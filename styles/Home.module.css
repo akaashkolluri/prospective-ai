@@ -136,7 +136,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 1200px;
 }
 
 .card {
@@ -147,20 +147,50 @@
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
+  max-height: 15rem;
+  min-height: 15rem;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 250px;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #48c6cd;
+  border-color: #48c6cd;
+}
+
+.card h3 {
+  color: #00000000;
+}
+
+.card:hover h3,
+.card:focus h3,
+.card:active h3 {
+  animation-duration: 1s;
+  animation-name: fadeIn;
+  color: rgb(255, 138, 138);
+}
+
+@keyframes fadeIn {
+  from {
+    color: #00000000;
+  }
+  to {
+    color: red;
+  }
 }
 
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+}
+
+.card:hover h2,
+.card:focus h2,
+.card:active h2 {
+  color: #48c6cd;
+  border-color: #48c6cd;
 }
 
 .card p {
