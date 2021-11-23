@@ -48,11 +48,17 @@ class Footer extends Component {
             }}
           />
           <Col>
-            {/* <div>
-              <Link href="#" title="Events" />
-              <Link href="#" title="Contests" />
-              <Link href="#" title="Classes" />
-            </div> */}
+            <a href="mailto:contact@prospectiveai.org" style={{ fontSize: 18 }}>
+              Events
+            </a>
+            <p />
+            <a href="mailto:contact@prospectiveai.org" style={{ fontSize: 18 }}>
+              Classes
+            </a>
+            <p />
+            <a href="mailto:contact@prospectiveai.org" style={{ fontSize: 18 }}>
+              Contests
+            </a>
           </Col>
           <p
             style={{
@@ -61,7 +67,19 @@ class Footer extends Component {
               flex: 2,
             }}
           />
-          <Col></Col>
+          <Col>
+            <a href="mailto:contact@prospectiveai.org" style={{ fontSize: 18 }}>
+              Join
+            </a>
+            <p />
+            <a href="mailto:contact@prospectiveai.org" style={{ fontSize: 18 }}>
+              Sponsor
+            </a>
+            <p />
+            <a href="mailto:contact@prospectiveai.org" style={{ fontSize: 18 }}>
+              Donate
+            </a>
+          </Col>
           <p
             style={{
               backgroundColor: "black",
@@ -76,9 +94,7 @@ class Footer extends Component {
             <a href="https://github.com/akaashkolluri/prospective-ai">
               Made with ❤️ in Houston, TX
             </a>
-            <a href="https://github.com/akaashkolluri/prospective-ai">
-              Prospective AI is fiscally sponsored by a 501(c)(3){" "}
-            </a>
+            <p>Prospective AI is fiscally sponsored by a 501(c)(3) </p>
           </Col>
         </Layout.Footer>
       </div>
