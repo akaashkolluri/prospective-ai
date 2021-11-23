@@ -24,8 +24,9 @@
 .donateCard:hover,
 .donateCard:focus,
 .donateCard:active {
-  border: 1px dashed #48c6cd;
+  border: 3px solid #48c6cd;
   color: #48c6cd;
+  font-weight: bold;
 }
 
 .tabs {

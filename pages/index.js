@@ -29,7 +29,7 @@ export default function Home() {
             </h2>
             <p style={{ flex: 1 }} />
             <Col style={{ flex: 3 }}>
-              <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
+              {/* <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
                 -Some Stat
               </h2>
               <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
@@ -40,7 +40,7 @@ export default function Home() {
               </h2>
               <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
                 -Some Stat
-              </h2>
+              </h2> */}
             </Col>
           </div>
           <p style={{ height: 50 }} />
@@ -69,7 +69,7 @@ export default function Home() {
             </a>
           </div>
           <p style={{ height: 30 }} />
-          <div className={styles.quoteContainer}>
+          <div className={styles.donateContainer}>
             <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
               Prospective AI is an organization dedicated to making AI
               accessible and available to students of all ages. We rely on
@@ -77,6 +77,14 @@ export default function Home() {
               programs and workshops running year-round Your donation is crucial
               in allowing us to provide valuable resources and quality education
               to our students.
+            </h2>
+
+            <a> Donate</a>
+          </div>
+          <div className={styles.quoteContainer}>
+            <h2>
+              “The key to artificial intelligence has always been the
+              representation.” <p /> <h3> —Jeff Hawkins </h3>
             </h2>
           </div>
         </main>
