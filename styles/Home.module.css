@@ -6,10 +6,11 @@
 .titleContainer {
   display: flex;
   flex-direction: column;
-  /* min-height: calc(100vh - 150px); */
-  /* background-image: url("../public/logo.png"); */
+  max-height: calc(100vh - 150px);
+  background-image: url("../public/homedisplay.gif");
+  background-size: 100vw 80vh;
   min-width: 100vw;
-  min-height: 100vh;
+  min-height: calc(100vh - 100px);
   justify-content: center;
   align-items: center;
 }
@@ -35,7 +36,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 80vh;
 
   flex: 1;
   background-color: white;

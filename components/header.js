@@ -9,7 +9,7 @@ class Header extends Component {
       <Affix>
         <div className={styles.header}>
           <p style={{ flex: 2 }} />
-          <a href="/">
+          <a>
             <img
               src="/logo.png"
               alt="Logo"
