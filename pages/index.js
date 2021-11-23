@@ -20,7 +20,7 @@ export default function Home() {
           <div className={styles.missionContainer}>
             <h2 style={{ margin: 10, backgroundColor: "#00000000", flex: 5 }}>
               Prospective AI is an organization dedicated to exposing today’s
-              youth to the increasingly more important field of Artificial
+              youth to the increasingly important field of Artificial
               Intelligence. The increasing applicability of AI in a variety of
               STEM fields has made understanding AI a critical skill for those
               looking to enter the workforce. Our goal is to educate students of
