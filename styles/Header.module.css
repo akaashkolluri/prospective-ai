@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  flex: 1;
+  border-bottom: 1px solid #eaeaea;
+  border-right: 0px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 0 2em;
+}
+
+.donateCard {
+  margin: 10;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #48c6cd;
+  color: #48c6cd;
+  font-size: 25;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.donateCard:hover,
+.donateCard:focus,
+.donateCard:active {
+  border: 1px dashed #48c6cd;
+  color: #48c6cd;
+}
+
+.tabs {
+  margin: 10;
+  padding: 1rem;
+  color: white;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.tabs:hover,
+.tabs:focus,
+.tabs:active {
+  color: #48c6cd;
+}

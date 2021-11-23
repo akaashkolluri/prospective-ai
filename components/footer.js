@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { Layout, Col, Card, Text, Row, Spacer, Anchor, Link } from "antd";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Footer.module.css";
 import {
   InstagramOutlined,
   YoutubeOutlined,

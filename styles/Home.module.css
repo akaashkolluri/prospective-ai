@@ -112,17 +112,6 @@
   color: #48c6cd;
 }
 
-.header {
-  display: flex;
-  flex: 1;
-  border-bottom: 1px solid #eaeaea;
-  border-right: 0px;
-  align-items: center;
-  background-color: black;
-  color: white;
-  padding: 0 2em;
-}
-
 .title a {
   color: #0070f3;
   text-decoration: none;
