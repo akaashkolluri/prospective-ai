@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  background-color: black;
 }
 
 .main {
@@ -14,11 +15,12 @@
 
 .footer {
   display: flex;
-  flex: 1;
+  flex: 0;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  background-color: #00000000;
 }
 
 .footer a {
@@ -26,6 +28,48 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+}
+.footer a:visited {
+  color: #fcf7e4;
+}
+.footer a:link {
+  color: #fcf7e4;
+}
+
+.footer a:hover {
+  color: #48c6cd;
+}
+
+.footertop {
+  display: flex;
+  flex: 0;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000000;
+  color: white;
+}
+
+.footertop h1 {
+  color: white;
+}
+
+.footertop a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color: #fcf7e4;
+}
+.footertop a:visited {
+  color: #fcf7e4;
+}
+.footertop a:link {
+  color: #fcf7e4;
+}
+
+.footertop a:hover {
+  color: #48c6cd;
 }
 
 .title a {
