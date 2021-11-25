@@ -1,11 +1,8 @@
 import { Component } from "react";
 import { Layout, Col, Card, Text, Row, Spacer, Anchor, Link } from "antd";
 import styles from "../styles/Footer.module.css";
-import {
-  InstagramOutlined,
-  YoutubeOutlined,
-  TwitterOutlined,
-} from "@ant-design/icons";
+import { InstagramOutlined, YoutubeOutlined } from "@ant-design/icons";
+import { FaDiscord } from "react-icons/fa";
 
 class Footer extends Component {
   render() {
@@ -34,8 +31,8 @@ class Footer extends Component {
                 <YoutubeOutlined style={{ fontSize: 36 }} />
               </a>
               <p style={{ flex: 1 }} />
-              <a>
-                <TwitterOutlined style={{ fontSize: 36 }} />
+              <a href="https://discord.gg/vYSCGAsm3c">
+                <FaDiscord style={{ fontSize: 36 }} />
               </a>
             </Row>
           </Col>
