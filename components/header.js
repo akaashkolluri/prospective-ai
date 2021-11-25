@@ -21,7 +21,12 @@ class Header extends Component {
           <p style={{ flex: 1 }} />
           <a className={styles.tabs}> Offers</a>
           <p style={{ flex: 4 }} />
-          <a className={styles.donateCard}>Support</a>
+          <a
+            href="https://secure.givelively.org/donate/hackplus/prospective-ai"
+            className={styles.donateCard}
+          >
+            Support
+          </a>
           <p style={{ flex: 1 }} />
         </div>
       </Affix>

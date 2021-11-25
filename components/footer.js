@@ -79,7 +79,10 @@ class Footer extends Component {
               Sponsor
             </a>
             <p />
-            <a href="" style={{ fontSize: 18 }}>
+            <a
+              href="https://secure.givelively.org/donate/hackplus/prospective-ai"
+              style={{ fontSize: 18 }}
+            >
               Donate
             </a>
           </Col>

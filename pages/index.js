@@ -80,7 +80,10 @@ export default function Home() {
               education to our students.
             </h2>
 
-            <a> Donate</a>
+            <a href="https://secure.givelively.org/donate/hackplus/prospective-ai">
+              {" "}
+              Donate
+            </a>
           </div>
           <div className={styles.quoteContainer}>
             <h2>
