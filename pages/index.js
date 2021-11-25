@@ -46,14 +46,14 @@ export default function Home() {
           <p style={{ height: 50 }} />
           <h2 style={{ fontSize: 40, fontWeight: 25 }}> Our Offers </h2>
           <div className={styles.grid}>
-            <a href="/events" className={styles.card}>
+            <a className={styles.card}>
               <h2>Events &rarr;</h2>
               <p>
                 Learn how AI is affecting our world, and get
                 <b> inspired </b> to make a difference
               </p>
             </a>
-            <a href="/classes" className={styles.card}>
+            <a className={styles.card}>
               <h2>Classes &rarr;</h2>
               <p>
                 Weekly lessons <b> educating </b> students covering the
