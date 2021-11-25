@@ -18,7 +18,8 @@ export default function Home() {
             <p style={{ flex: 2 }} />
           </div>
           <div className={styles.missionContainer}>
-            <h2 style={{ margin: 10, backgroundColor: "#00000000", flex: 5 }}>
+            <a href=""> About Us</a>
+            <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
               Prospective AI is an organization dedicated to exposing today’s
               youth to the increasingly important field of Artificial
               Intelligence. The increasing applicability of AI in a variety of
@@ -27,21 +28,8 @@ export default function Home() {
               all ages and skill levels on the implementation and social impacts
               of AI through free programs, workshops and competitions.
             </h2>
+
             <p style={{ flex: 1 }} />
-            <Col style={{ flex: 3 }}>
-              {/* <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
-                -Some Stat
-              </h2>
-              <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
-                -Some Stat
-              </h2>
-              <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
-                -Some Stat
-              </h2>
-              <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
-                -Some Stat
-              </h2> */}
-            </Col>
           </div>
           <p style={{ height: 50 }} />
           <h2 style={{ fontSize: 40, fontWeight: 25 }}> Our Offers </h2>
