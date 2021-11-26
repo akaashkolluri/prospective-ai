@@ -41,8 +41,8 @@
 .container a:hover,
 .container a:focus,
 .container a:active {
-  border: 2px solid red;
-  color: red;
+  border: 2px solid #48c6cd;
+  color: #48c6cd;
   font-weight: lighter;
 }
 
@@ -64,10 +64,10 @@
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
-  max-height: 15rem;
-  min-height: 15rem;
+  max-height: 18rem;
+  min-height: 18rem;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 250px;
+  max-width: 400px;
 }
 
 .card:hover,
@@ -75,6 +75,7 @@
 .card:active {
   color: #48c6cd;
   border-color: #48c6cd;
+  background-color: #48c6cd25;
   border: 0px solid #eaeaea;
 }
 
@@ -91,10 +92,20 @@
   color: rgb(255, 138, 138);
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  color: black;
 }
 
 .card h2 {
@@ -105,6 +116,10 @@
 .card:hover h2,
 .card:focus h2,
 .card:active h2 {
-  color: #48c6cd;
+  color: black;
   border-color: #48c6cd;
+}
+
+.inLink {
+  font-size: 10pt;
 }

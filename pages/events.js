@@ -13,16 +13,22 @@ export default function Events() {
       <div className={styles.container}>
         <h2>Upcoming Events</h2>
         <div className={styles.grid}>
-          <Link href="/events">
-            <a className={styles.card}>
-              <h2>Social Impact of AI</h2>
-              <p>
-                Learn how AI is affecting our world, and get
-                <b> inspired </b> to make a difference
-              </p>
-              <h3> Sign Up</h3>
-            </a>
-          </Link>
+          <a
+            className={styles.card}
+            href="https://docs.google.com/forms/d/e/1FAIpQLScANI5-8-_vlf-t726SLZ_2X5x17O-J75RCukLBingr6nx2wQ/viewform?usp=sf_link"
+          >
+            <h2>
+              Social Impact of AI Workshop{" "}
+              <p style={{ fontSize: 20 }}> 12/2/21</p>
+            </h2>
+
+            <p>
+              Learn the basics of AI, including possibilities, emerging
+              applications, and social issues. Featuring virtual guest speaker
+              <b> Dr. Jody Porrazzo</b>.
+            </p>
+            <h3> Click to sign up </h3>
+          </a>
         </div>
         <div style={{ flex: 1 }} />
       </div>
