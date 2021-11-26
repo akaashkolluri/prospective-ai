@@ -39,8 +39,7 @@
 .missionContainer a {
   font-size: 30pt;
   flex: 1;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin: 3vh;
 
   padding: rem;
   text-align: center;

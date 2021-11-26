@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   min-height: calc(100vh - 100px);
   min-width: 100vw;
-
+  text-align: center;
   align-items: center;
   justify-content: center;
 
@@ -17,6 +17,7 @@
   font-size: 30pt;
   font-weight: lighter;
   margin: 45;
+  max-width: 60vw;
 }
 
 .missionContainer {
@@ -60,7 +61,7 @@
 .container a:hover,
 .container a:focus,
 .container a:active {
-  border: 2pt dashed red;
+  border: 2px solid red;
   color: red;
   font-weight: lighter;
 }
