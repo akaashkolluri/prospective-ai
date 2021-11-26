@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import Construction from "../components/construction";
 
-export default function Contests() {
+export default function Offers() {
   return (
     <div>
       <Header />

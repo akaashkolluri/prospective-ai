@@ -23,7 +23,7 @@ class Header extends Component {
             <a className={styles.tabs}> About Us</a>
           </Link>
           <p style={{ flex: 1 }} />
-          <Link href="/">
+          <Link href="/offers">
             <a className={styles.tabs}> Our Offers</a>
           </Link>
           <p style={{ flex: 4 }} />

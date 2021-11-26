@@ -1,11 +1,11 @@
 import {} from "antd";
-import styles from "../styles/Events.module.css";
+import styles from "../styles/Classes.module.css";
 
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Construction from "../components/construction";
 
-export default function Contests() {
+export default function About() {
   return (
     <div>
       <Header />
