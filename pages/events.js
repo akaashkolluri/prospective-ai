@@ -30,7 +30,7 @@ export default function Events() {
             <h3> Click to sign up </h3>
           </a>
         </div>
-        <div style={{ flex: 1 }} />
+        <div style={{ flex: 10 }} />
       </div>
       <Footer />
     </div>
