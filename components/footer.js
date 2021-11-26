@@ -28,7 +28,7 @@ class Footer extends Component {
                 <InstagramOutlined style={{ fontSize: 36 }} />
               </a>
               <p style={{ flex: 1 }} />
-              <a>
+              <a href="https://www.youtube.com/channel/UC54doSlQAcrdEa2_w8EIQwg">
                 <YoutubeOutlined style={{ fontSize: 36 }} />
               </a>
               <p style={{ flex: 1 }} />
