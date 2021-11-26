@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import { Card, Col, Row } from "antd";
@@ -19,7 +20,9 @@ export default function Home() {
           </div>
 
           <div className={styles.missionContainer}>
-            <a href=""> About Us</a>
+            <Link href="/about">
+              <a href=""> About Us</a>
+            </Link>
             <h2 style={{ backgroundColor: "#00000000" }}>
               Prospective AI is an organization dedicated to exposing today’s
               youth to the increasingly important field of Artificial
@@ -33,28 +36,34 @@ export default function Home() {
           <p style={{ height: 50 }} />
           <h2 style={{ fontSize: 40, fontWeight: 25 }}> Our Offers </h2>
           <div className={styles.grid}>
-            <a className={styles.card}>
-              <h2>Events &rarr;</h2>
-              <p>
-                Learn how AI is affecting our world, and get
-                <b> inspired </b> to make a difference
-              </p>
-            </a>
-            <a className={styles.card}>
-              <h2>Classes &rarr;</h2>
-              <p>
-                Weekly lessons <b> educating </b> students covering the
-                fundamentals of AI
-              </p>
-            </a>
-            <a className={styles.card}>
-              <h2>Contests &rarr;</h2>
-              <p>
-                Compete, create, and<b> innovate </b> to make the world a better
-                place
-              </p>
-              <h3> Coming soon..</h3>
-            </a>
+            <Link href="/events">
+              <a className={styles.card}>
+                <h2>Events &rarr;</h2>
+                <p>
+                  Learn how AI is affecting our world, and get
+                  <b> inspired </b> to make a difference
+                </p>
+              </a>
+            </Link>
+            <Link href="/classes">
+              <a className={styles.card}>
+                <h2>Classes &rarr;</h2>
+                <p>
+                  Weekly lessons <b> educating </b> students covering the
+                  fundamentals of AI
+                </p>
+              </a>
+            </Link>
+            <Link href="/contests">
+              <a className={styles.card}>
+                <h2>Contests &rarr;</h2>
+                <p>
+                  Compete, create, and<b> innovate </b> to make the world a
+                  better place
+                </p>
+                <h3> Coming soon..</h3>
+              </a>
+            </Link>
           </div>
           <p style={{ height: 30 }} />
           <div className={styles.donateContainer}>

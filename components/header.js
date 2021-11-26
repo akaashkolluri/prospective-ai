@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Menu, Affix, Card, Image } from "antd";
 import styles from "../styles/Header.module.css";
-import { Link } from "next/link";
+import Link from "next/link";
 
 class Header extends Component {
   render() {
@@ -9,17 +9,23 @@ class Header extends Component {
       <Affix>
         <div className={styles.header}>
           <p style={{ flex: 2 }} />
-          <a>
-            <img
-              src="/logo.png"
-              alt="Logo"
-              style={{ height: 70, margin: 10 }}
-            />
-          </a>
+          <Link href="/">
+            <a>
+              <img
+                src="/logo.png"
+                alt="Logo"
+                style={{ height: 70, margin: 10 }}
+              />
+            </a>
+          </Link>
           <p style={{ flex: 25 }} />
-          <a className={styles.tabs}> About</a>
+          <Link href="/about">
+            <a className={styles.tabs}> About Us</a>
+          </Link>
           <p style={{ flex: 1 }} />
-          <a className={styles.tabs}> Offers</a>
+          <Link href="/">
+            <a className={styles.tabs}> Our Offers</a>
+          </Link>
           <p style={{ flex: 4 }} />
           <a
             href="https://secure.givelively.org/donate/hackplus/prospective-ai"

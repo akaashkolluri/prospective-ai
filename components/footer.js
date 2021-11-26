@@ -1,5 +1,6 @@
 import { Component } from "react";
-import { Layout, Col, Card, Text, Row, Spacer, Anchor, Link } from "antd";
+import { Layout, Col, Card, Text, Row, Spacer, Anchor } from "antd";
+import Link from "next/link";
 import styles from "../styles/Footer.module.css";
 import { InstagramOutlined, YoutubeOutlined } from "@ant-design/icons";
 import { FaDiscord } from "react-icons/fa";
@@ -45,17 +46,17 @@ class Footer extends Component {
             }}
           />
           <Col>
-            <a href="" style={{ fontSize: 18 }}>
-              Events
-            </a>
+            <Link href="/events">
+              <a style={{ fontSize: 18 }}>Events</a>
+            </Link>
             <p />
-            <a href="" style={{ fontSize: 18 }}>
-              Classes
-            </a>
+            <Link href="/classes">
+              <a style={{ fontSize: 18 }}>Classes</a>
+            </Link>
             <p />
-            <a href="" style={{ fontSize: 18 }}>
-              Contests
-            </a>
+            <Link href="/contests">
+              <a style={{ fontSize: 18 }}>Contests</a>
+            </Link>
           </Col>
           <p
             style={{
