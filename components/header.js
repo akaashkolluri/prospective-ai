@@ -20,11 +20,11 @@ class Header extends Component {
           </Link>
           <p style={{ flex: 25 }} />
           <Link href="/about">
-            <a className={styles.tabs}> About Us</a>
+            <a className={styles.tabs}>About</a>
           </Link>
           <p style={{ flex: 1 }} />
           <Link href="/offers">
-            <a className={styles.tabs}> Our Offers</a>
+            <a className={styles.tabs}>Offers</a>
           </Link>
           <p style={{ flex: 4 }} />
           <a

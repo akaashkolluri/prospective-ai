@@ -64,7 +64,6 @@
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
-  max-height: 18rem;
   min-height: 18rem;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 400px;
@@ -80,6 +79,7 @@
 }
 
 .card h3 {
+  font-size: 1rem;
   color: #00000000;
 }
 
