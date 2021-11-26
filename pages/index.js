@@ -25,12 +25,12 @@ export default function Home() {
             </Link>
             <h2 style={{ backgroundColor: "#00000000" }}>
               Prospective AI is an organization dedicated to exposing today’s
-              youth to the increasingly important field of Artificial
-              Intelligence. The increasing applicability of AI in a variety of
-              STEM fields has made understanding AI a critical skill for those
-              looking to enter the workforce. Our goal is to educate students of
-              all ages and skill levels on the implementation and social impacts
-              of AI through free programs, workshops and competitions.
+              youth to the increasingly important field of artificial
+              intelligence. The applicability of AI in a variety of STEM fields
+              has made understanding AI a critical skill for those looking to
+              enter the workforce. Our goal is to educate students of all ages
+              and skill levels on the implementation and impacts of AI through
+              free programs, workshops, and competitions.
             </h2>
           </div>
           <p style={{ height: 50 }} />
@@ -52,6 +52,7 @@ export default function Home() {
                   Weekly lessons <b> educating </b> students covering the
                   fundamentals of AI
                 </p>
+                <h3> Coming soon..</h3>
               </a>
             </Link>
             <Link href="/contests">
