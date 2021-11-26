@@ -17,6 +17,7 @@ export default function Home() {
             <h2 className={styles.tagline}> Educate, Innovate, Inspire</h2>
             <p style={{ flex: 2 }} />
           </div>
+
           <div className={styles.missionContainer}>
             <a href=""> About Us</a>
             <h2 style={{ margin: 10, backgroundColor: "#00000000" }}>
