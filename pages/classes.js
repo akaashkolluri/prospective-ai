@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import Construction from "../components/construction";
 
-import Link from "next/Link";
+import Link from "next/link";
 
 export default function Classes() {
   return (
