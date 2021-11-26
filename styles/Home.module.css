@@ -213,20 +213,22 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 2px solid black;
   border-radius: 10px;
   max-height: 15rem;
   min-height: 15rem;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 250px;
+  font-weight: lighter;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #48c6cd;
+  background-color: #48c6cd25;
+  color: black;
   border-color: #48c6cd;
-  border: 0px solid #eaeaea;
+  border: 2px solid #48c6cd;
 }
 
 .card h3 {
@@ -244,13 +246,6 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
-}
-
-.card:hover h2,
-.card:focus h2,
-.card:active h2 {
-  color: #48c6cd;
-  border-color: #48c6cd;
 }
 
 .card p {
