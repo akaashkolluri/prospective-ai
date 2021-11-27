@@ -5,12 +5,11 @@
   flex-wrap: wrap;
   min-height: calc(100vh - 90px);
   min-width: 100vw;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  background-image: url("../public/pageback4.png");
+  text-align: right;
+
+  background-color: #5c114916;
+  /* background-image: url("../public/pageback4.png"); */
   background-size: 100vw 80vh;
-  background-color: white;
 }
 
 .container h2 {
@@ -19,4 +18,16 @@
   font-weight: lighter;
   margin: 45;
   max-width: 60vw;
+  animation: fadeIn;
+  animation-duration: 3s;
+  color: black;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

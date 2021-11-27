@@ -10,7 +10,7 @@ export default function About() {
     <div>
       <Header />
       <div className={styles.container}>
-        <h2>We're commited to making education easy.</h2>
+        <h2>We're commited to making education accessible.</h2>
         <p style={{ flex: 1 }} />
       </div>
       <Footer />
