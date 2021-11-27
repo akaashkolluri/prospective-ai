@@ -10,7 +10,7 @@
   background-image: url("../public/pageback4.png");
   background-size: 100vw 80vh;
   min-width: 100vw;
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 90px);
   justify-content: center;
   align-items: center;
 }

@@ -1,5 +1,5 @@
 import {} from "antd";
-import styles from "../styles/Classes.module.css";
+import styles from "../styles/About.module.css";
 
 import Footer from "../components/footer";
 import Header from "../components/header";
@@ -9,7 +9,10 @@ export default function About() {
   return (
     <div>
       <Header />
-      <Construction />
+      <div className={styles.container}>
+        <h2>We're commited to making education easy.</h2>
+        <p style={{ flex: 1 }} />
+      </div>
       <Footer />
     </div>
   );
