@@ -9,10 +9,11 @@ export default function About() {
   return (
     <div>
       <Header />
-      <div className={styles.container}>
-        <h2>We're commited to making education accessible.</h2>
+      <Construction />
+      {/* <div className={styles.container}>
+        <h2>Temp</h2>
         <p style={{ flex: 1 }} />
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

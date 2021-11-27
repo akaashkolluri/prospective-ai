@@ -1,11 +1,12 @@
 .container {
-  padding: 0 3rem;
+  padding: 5rem 3rem;
   display: flex;
+
   flex-direction: column;
   flex-wrap: wrap;
   min-height: calc(100vh - 90px);
   min-width: 100vw;
-  text-align: right;
+  text-align: left;
 
   background-color: #5c114916;
   /* background-image: url("../public/pageback4.png"); */
@@ -13,11 +14,9 @@
 }
 
 .container h2 {
-  margin-top: 10vh;
   font-size: 30pt;
   font-weight: lighter;
-  margin: 45;
-  max-width: 60vw;
+  margin: 20;
   animation: fadeIn;
   animation-duration: 3s;
   color: black;
