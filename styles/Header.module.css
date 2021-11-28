@@ -41,3 +41,12 @@
 .tabs:active {
   color: #48c6cd;
 }
+
+.offersMenu {
+  background-color: black;
+  color: white;
+}
+
+.offersMenu a {
+  color: white;
+}

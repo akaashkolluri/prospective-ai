@@ -1,7 +1,27 @@
 import { Component } from "react";
-import { Menu, Affix, Card, Image } from "antd";
+import { Menu, Affix, Card, Image, Dropdown } from "antd";
 import styles from "../styles/Header.module.css";
 import Link from "next/link";
+
+const dropdownMenu = (
+  <Menu className={styles.offersMenu}>
+    <Menu.Item key="events">
+      <Link href="/events">
+        <a className={styles.tabs}>Events</a>
+      </Link>
+    </Menu.Item>
+    <Menu.Item key="classes">
+      <Link href="/classes">
+        <a className={styles.tabs}>Classes</a>
+      </Link>
+    </Menu.Item>
+    <Menu.Item key="contests">
+      <Link href="/contests">
+        <a className={styles.tabs}>Contests</a>
+      </Link>
+    </Menu.Item>
+  </Menu>
+);
 
 class Header extends Component {
   render() {
@@ -23,9 +43,9 @@ class Header extends Component {
             <a className={styles.tabs}>About</a>
           </Link>
           <p style={{ flex: 1 }} />
-          <Link href="/offers">
-            <a className={styles.tabs}>Offers</a>
-          </Link>
+          <Dropdown overlay={dropdownMenu}>
+            <a className={styles.tabs}> Offers</a>
+          </Dropdown>
           <p style={{ flex: 4 }} />
           <a
             href="https://secure.givelively.org/donate/hackplus/prospective-ai"
