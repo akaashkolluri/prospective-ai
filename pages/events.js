@@ -11,6 +11,7 @@ export default function Events() {
     <div>
       <Header />
       <div className={styles.container}>
+        <div style={{ flex: 1 }} />
         <h2>Upcoming Events</h2>
         <div className={styles.grid}>
           <a
@@ -30,7 +31,7 @@ export default function Events() {
             <h3> Click to sign up </h3>
           </a>
         </div>
-        <div style={{ flex: 1 }} />
+        <div style={{ flex: 3 }} />
       </div>
       <Footer />
     </div>
