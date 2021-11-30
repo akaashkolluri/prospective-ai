@@ -16,11 +16,11 @@ export default function Events() {
         <div className={styles.grid}>
           <a
             className={styles.card}
-            href="https://docs.google.com/forms/d/e/1FAIpQLScANI5-8-_vlf-t726SLZ_2X5x17O-J75RCukLBingr6nx2wQ/viewform?usp=sf_link"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdfWCATkXtsIyGWhridh5g-IkXRBBV9wHnnCVImzOYO8Z4D0g/viewform"
           >
             <h2>
               Social Impact of AI Workshop{" "}
-              <p style={{ fontSize: 20 }}> 12/2/21</p>
+              <p style={{ fontSize: 20 }}> 12/9/21</p>
             </h2>
 
             <p>
