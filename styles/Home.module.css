@@ -7,7 +7,14 @@
   display: flex;
   flex-direction: column;
   max-height: calc(100vh - 150px);
-  background-image: url("../public/pageback4.png");
+  background: linear-gradient(
+    to right,
+    #5c114999 0%,
+    #5c114940 40%,
+    #0f485740 60%,
+    #0f485799 100%
+  );
+
   background-size: 100vw 80vh;
   min-width: 100vw;
   min-height: calc(100vh - 90px);

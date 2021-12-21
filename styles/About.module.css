@@ -8,8 +8,13 @@
   min-width: 100vw;
   text-align: left;
 
-  background-color: #5c114916;
-  /* background-image: url("../public/pageback4.png"); */
+  background: linear-gradient(
+    to right,
+    #5c114999 0%,
+    #5c114940 40%,
+    #0f485740 60%,
+    #0f485799 100%
+  );
   background-size: 100vw 80vh;
 }
 
